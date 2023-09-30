@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+
+}
+
+
+
+
+.card-group{
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-bottom: 5rem;
+	shadow: 0 10px 10px rgba(0, 0, 0, .5);
+	border: none;
+}
+
+.btn {
+	width: 17.5rem;
+}
+
+.card  {
+	border: none;
+}
+card:hover 
+	
+    {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+
+.card img:hover {
+	transform: scale(1.1);
+}
+@media (max-width: 768px) {
+	.btn {
+		width: 17rem;
+	}
+}
